@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: <your-dockerhub-username>/myapp:v1
+        image: sidd1810/myapp:v1
         ports:
         - containerPort: 5000
