@@ -1,0 +1,6 @@
+- name: Setup Kubernetes
+  hosts: localhost
+  tasks:
+    - name: Create namespace
+      command: kubectl create ns myapp
+
